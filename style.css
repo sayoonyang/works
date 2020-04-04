@@ -184,7 +184,7 @@ pre {
 
 /*===== Titles =====*/
 .site-title {
-    font-family: 'Righteous',helvetica,sans-serif;
+    font-family: 'Sen',helvetica,sans-serif;
     font-size: 26px;
     color: #90D4C5;
     line-height: 1.5em;
@@ -203,7 +203,9 @@ pre {
     color: #90D4C5;
     opacity: 0.8;
 }
-.site-title div { display: inline; }
+.site-title div {
+  display: inline;
+}
 .site-tagline {
     clear: both;
     margin-bottom: 40px;
@@ -211,6 +213,7 @@ pre {
 }
 .site-tagline p {
     color: #2c2c2c;
+    font-family: 'Sen',helvetica,sans-serif; /*font family added*/
     font-size: 21px;
     text-align: left;
     width: 90%;
@@ -219,6 +222,7 @@ pre {
 .site-tagline a:visited { color: #90D4C5; }
 .site-tagline a:hover {
     color: #2c2c2c;
+    text-decoration : underline;
 }
 /*=================================*/
 /* Language Styles
@@ -247,7 +251,7 @@ pre {
     line-height: 14px;
 }
 .languages ul li a:hover {
-    color: #90D4C5; 
+    color: #90D4C5;
 }
 
 .languages ul li.active a {
@@ -410,7 +414,7 @@ pre {
     height: 100%;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-   
+
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
@@ -450,7 +454,7 @@ pre {
     -moz-transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
     transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
 }
- 
+
 .cd-nav .cd-primary-nav {
     margin-top: 90px;
 }
@@ -484,8 +488,8 @@ pre {
 .cd-nav .cd-contact-info span {
     display: block;
 }
-.cd-nav .cd-contact-info li, 
-.cd-nav .cd-contact-info a, 
+.cd-nav .cd-contact-info li,
+.cd-nav .cd-contact-info a,
 .cd-nav .cd-contact-info span {
     font-size: 18px;
 }
@@ -586,7 +590,7 @@ pre {
 }
 .thumbnail-title {
     color: #2c2c2c;
-    font-family: 'Righteous',helvetica,sans-serif;
+    font-family: 'Sen',helvetica,sans-serif;
     font-size: 21px;
     margin: 0 auto 10px auto;
     text-align: left;
@@ -623,7 +627,7 @@ div.video {
 .no-js div.video,
 div.loaded { opacity: 1; }
 div.image img { width: 100%; }
- 
+
 .view {
     cursor: -webkit-zoom-in;
     cursor: -moz-zoom-in;
@@ -774,7 +778,7 @@ nav[role="navigation"] {
   transform: rotate(180deg);
 }
 
-.cd-pagination.animated-buttons a, 
+.cd-pagination.animated-buttons a,
 .cd-pagination.animated-buttons span {
   padding: 0 1.4em;
   height: 50px;
@@ -986,7 +990,7 @@ nav[role="navigation"] {
 .site-footer p { margin: 0; font-size: 16px;display: inline;}
 .site-footer a,
 .site-footer a:visited { color: #2c2c2c; }
-.site-footer a:hover { color: #90D4C5; } 
+.site-footer a:hover { color: #90D4C5; }
 
 /*=================================*/
 /* Media Queries
@@ -997,7 +1001,7 @@ nav[role="navigation"] {
 @media only screen and (min-width: 401px) {
 
     /*===== Titles =====*/
-    .site-tagline p { 
+    .site-tagline p {
         font-size: 28px;
     }
     /*===== Navigations =====*/
@@ -1059,7 +1063,7 @@ nav[role="navigation"] {
     .site-tagline {
         margin-bottom: 60px;
     }
-    .site-tagline p { 
+    .site-tagline p {
         font-size: 36px;
     }
     /*===== Navigations =====*/
@@ -1130,7 +1134,7 @@ nav[role="navigation"] {
     .site-tagline {
         margin-bottom: 80px;
     }
-    .site-tagline p { 
+    .site-tagline p {
         font-size: 42px;
     }
     /*===== Navigations =====*/
@@ -1144,8 +1148,8 @@ nav[role="navigation"] {
     .cd-nav .cd-primary-nav a {
         font-size: 42px;
     }
-    .cd-nav .cd-contact-info li, 
-    .cd-nav .cd-contact-info a, 
+    .cd-nav .cd-contact-info li,
+    .cd-nav .cd-contact-info a,
     .cd-nav .cd-contact-info span {
         font-size: 21px;
     }
@@ -1252,7 +1256,7 @@ nav[role="navigation"] {
       float: right;
     }
 
-    
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1273,13 +1277,13 @@ nav[role="navigation"] {
         margin-bottom: 100px;
         width: 75%;
     }
-    .site-tagline p { 
+    .site-tagline p {
         font-size: 48px;
     }
-    .site-tagline h1 { 
+    .site-tagline h1 {
         font-size: 3.2rem;
     }
-    .site-tagline h5 { 
+    .site-tagline h5 {
         font-size: 1.4rem;
     }
     /*===== Navigations =====*/
@@ -1293,8 +1297,8 @@ nav[role="navigation"] {
     .cd-nav .cd-primary-nav a {
         font-size: 54px;
     }
-    .cd-nav .cd-contact-info li, 
-    .cd-nav .cd-contact-info a, 
+    .cd-nav .cd-contact-info li,
+    .cd-nav .cd-contact-info a,
     .cd-nav .cd-contact-info span {
         font-size: 24px;
     }
