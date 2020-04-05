@@ -527,14 +527,6 @@ pre {
 }
 
 
-/*===== Button for more Information=====*/
-
-.btn {
-  border: none;
-  background-color: inherit;
-  cursor: pointer;
-  display: inline-block;
-}
 
 /*===== Projects Feed =====*/
 .projects-feed {
@@ -664,6 +656,8 @@ div.image img { width: 100%; }
 .project-meta .tags { margin-top: 17px; }
 .project-meta .tags a { margin-left: 10px; }
 .project-meta .tags a:first-child { margin-left: 0; }
+
+
 
 /*===== Paginations =====*/
 nav[role="navigation"] {
