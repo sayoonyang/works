@@ -525,6 +525,17 @@ pre {
     -o-transform: translateX(0);
     transform: translateX(0);
 }
+
+
+/*===== Button for more Information=====*/
+
+.btn {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: inline-block;
+}
+
 /*===== Projects Feed =====*/
 .projects-feed {
     clear: both;
